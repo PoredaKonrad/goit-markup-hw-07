@@ -8,9 +8,8 @@ body {
 
 
 /* I-N-D-E-X */
+/* ROOTS */
 
-
-/* Rooty */
 :root {
   --index-main-color: #2196f3;
 }
@@ -18,6 +17,13 @@ body {
 :root {
   --index-dulled-color: #757575;
 }
+
+:root {
+    --index-bright-font-color: #FFFFFF;
+}
+
+:root {
+    --index-main-bd-color: #2F303A}
 
 
 /* INDEX HEADER */
@@ -68,10 +74,32 @@ body {
   color: var(--index-main-color);
 }
 
+/* INDEX MAIN TOP */
+
+.index-main-header {
+    background-color: var(--index-main-bd-color);
+}
+
+.index-h1 {
+    font-weight: 700;
+    font-size: 44px;
+    color: var(--index-bright-font-color);
+    line-height: 1.36em;
+}
+
+.index-main-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.875em;
+    font-weight: 700;
+    color: var(--index-bright-font-color);
+    background-color: var(--index-main-color);
+}
 
 
 /* P-O-R-T-F-O-L-I-O */
-/* Rooty */
+/* ROOTS */
+
 :root {
     --portfolio-main-color: #2196f3;
   }
