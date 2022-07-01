@@ -1,12 +1,3 @@
-/* Rooty */
-
-:root {
-  --index-main-color: #2196f3;
-}
-
-:root {
-  --index-dulled-color: #757575;
-}
 
 /* Czcionka globalna */
 
@@ -15,7 +6,22 @@ body {
   color: #212121;
 }
 
+
+/* I-N-D-E-X */
+
+
+/* Rooty */
+:root {
+  --index-main-color: #2196f3;
+}
+
+:root {
+  --index-dulled-color: #757575;
+}
+
+
 /* INDEX HEADER */
+
 
 .index-top-logo {
   color: inherit;
@@ -61,3 +67,65 @@ body {
 .index-header-contacts a:focus {
   color: var(--index-main-color);
 }
+
+
+
+/* P-O-R-T-F-O-L-I-O */
+/* Rooty */
+:root {
+    --portfolio-main-color: #2196f3;
+  }
+  
+  :root {
+    --portfolio-dulled-color: #757575;
+  }
+
+
+/* PORTFOLIO HEADER */
+
+
+.portfolio-top-logo {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192em;
+    font-family: Raleway;
+  }
+  
+  .portfolio-top-web {
+    color: var(--portfolio-main-color);
+  }
+  
+  .portfolio-nav {
+    font-size: 14px;
+    line-height: 1.14em;
+    font-weight: 500;
+  }
+  
+  .portfolio-nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.142em;
+    text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .portfolio-nav-link:hover,
+  .portfolio-nav-link:focus {
+    color: var(--portfolio-main-color);
+  }
+  
+  .portfolio-header-contacts a {
+    font-size: 14px;
+    line-height: 1.14em;
+    color: var(--portfolio-dulled-color);
+    text-decoration: none;
+  }
+  
+  .portfolio-header-contacts a:hover,
+  .portfolio-header-contacts a:focus {
+    color: var(--portfolio-main-color);
+  }
+  
