@@ -1,0 +1,6 @@
+/* Czcionka globalna */
+
+body {
+    font-family: Roboto, Raleway, sans-serif;
+    color: #212121;
+}
