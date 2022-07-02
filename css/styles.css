@@ -25,6 +25,10 @@ body {
 :root {
     --index-main-bd-color: #2F303A}
 
+:root {
+      --index-alpha-font-color: rgba(255, 255, 255, 0.6);
+  }
+
 
 /* INDEX HEADER */
 
@@ -99,7 +103,78 @@ body {
 
 /* INDEX MAIN MIDDLE */
 
+.index-loremipsum h3 {
+  font-size: 14px;
+  line-height: 1.142em;
+}
 
+.index-loremipsum p {
+  font-size: 14px;
+  line-height: 1.714em;
+  color: var(--index-dulled-color);
+}
+  
+.index-about > h2 {
+    font-size: 36px;
+    line-height: 1.166em;
+}
+
+.index-team{
+  background-color: #F5F4FA;;
+}
+
+.index-team>h2 {
+  font-size: 36px;
+  line-height: 1.166em;
+}
+
+.index-team h3 {
+  font-size: 16px;
+  line-height: 1.1875em;
+}
+
+.index-team p {
+  font-size: 16px;
+  line-height: 1.1875em;
+  color: var(--index-dulled-color);
+}
+
+
+/* INDEX FOOTER */
+
+.index-footer {
+  background-color: var(--index-main-bd-color);
+}
+
+.index-bottom-logo {
+  color: var(--index-bright-font-color);
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.192em;
+  font-family: Raleway;
+}
+
+.index-bottom-web {
+  color: var(--index-main-color);
+}
+
+.index-address {
+  color: var(--index-bright-font-color);
+  font-size: 14px;
+  line-height: 1.714em;
+}
+
+.index-footer-contacts a {
+  font-size: 14px;
+  line-height: 1.714em;
+  color: var(--index-alpha-font-color);
+  text-decoration: none;
+}
+
+.index-footer-contacts a:hover,
+.index-footer-contacts a:focus {
+  color: var(--index-main-color);
+}
 
 /* P-O-R-T-F-O-L-I-O */
 /* ROOTS */
