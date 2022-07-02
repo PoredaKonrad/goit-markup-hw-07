@@ -1,8 +1,20 @@
-/* Czcionka globalna */
+/* globalna */
 
 body {
   font-family: Roboto, Raleway, sans-serif;
   color: #212121;
+  background-color: #fff
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /* ROOTS */
@@ -16,7 +28,7 @@ body {
 }
 
 :root {
-  --index-bright-font-color: #ffffff;
+  --index-bright-font-color: #fff;
 }
 
 :root {
@@ -61,15 +73,15 @@ body {
   color: var(--index-main-color);
 }
 
-.header-contacts a {
+.header-contact a {
   font-size: 14px;
   line-height: 1.14em;
   color: var(--index-dulled-color);
   text-decoration: none;
 }
 
-.header-contacts a:hover,
-.header-contacts a:focus {
+.header-contact a:hover,
+.header-contact a:focus {
   color: var(--index-main-color);
 }
 
@@ -97,7 +109,7 @@ body {
   line-height: 1.714em;
 }
 
-.footer-contacts a {
+.footer-contact a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714em;
@@ -105,12 +117,12 @@ body {
   text-decoration: none;
 }
 
-.footer-contacts a:hover,
-.footer-contacts a:focus {
+.footer-contact a:hover,
+.footer-contact a:focus {
   color: var(--index-main-color);
 }
 
-.footer-contacts li:first-child {
+.footer-contact li:first-child {
   text-decoration: underline;
 }
 
@@ -139,12 +151,12 @@ body {
 
 /* INDEX MAIN MIDDLE */
 
-.index-loremipsum h3 {
+.lorem-list h3 {
   font-size: 14px;
   line-height: 1.142em;
 }
 
-.index-loremipsum p {
+.lorem-list p {
   font-size: 14px;
   line-height: 1.714em;
   color: var(--index-dulled-color);
@@ -155,21 +167,21 @@ body {
   line-height: 1.166em;
 }
 
-.index-team {
+.team {
   background-color: #f5f4fa;
 }
 
-.index-team > h2 {
+.team > h2 {
   font-size: 36px;
   line-height: 1.166em;
 }
 
-.index-team h3 {
+.team h3 {
   font-size: 16px;
   line-height: 1.1875em;
 }
 
-.index-team p {
+.team p {
   font-size: 16px;
   line-height: 1.1875em;
   color: var(--index-dulled-color);
