@@ -1,11 +1,9 @@
-
 /* Czcionka globalna */
 
 body {
   font-family: Roboto, Raleway, sans-serif;
   color: #212121;
 }
-
 
 /* I-N-D-E-X */
 /* ROOTS */
@@ -19,19 +17,18 @@ body {
 }
 
 :root {
-    --index-bright-font-color: #FFFFFF;
+  --index-bright-font-color: #ffffff;
 }
 
 :root {
-    --index-main-bd-color: #2F303A}
+  --index-main-bd-color: #2f303a;
+}
 
 :root {
-      --index-alpha-font-color: rgba(255, 255, 255, 0.6);
-  }
-
+  --index-alpha-font-color: rgba(255, 255, 255, 0.6);
+}
 
 /* INDEX HEADER */
-
 
 .index-top-logo {
   color: inherit;
@@ -81,25 +78,24 @@ body {
 /* INDEX MAIN TOP */
 
 .index-main-header {
-    background-color: var(--index-main-bd-color);
+  background-color: var(--index-main-bd-color);
 }
 
 .index-h1 {
-    font-weight: 700;
-    font-size: 44px;
-    color: var(--index-bright-font-color);
-    line-height: 1.36em;
+  font-weight: 700;
+  font-size: 44px;
+  color: var(--index-bright-font-color);
+  line-height: 1.36em;
 }
 
 .index-main-button {
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1.875em;
-    font-weight: 700;
-    color: var(--index-bright-font-color);
-    background-color: var(--index-main-color);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.875em;
+  font-weight: 700;
+  color: var(--index-bright-font-color);
+  background-color: var(--index-main-color);
 }
-
 
 /* INDEX MAIN MIDDLE */
 
@@ -113,17 +109,17 @@ body {
   line-height: 1.714em;
   color: var(--index-dulled-color);
 }
-  
+
 .index-about > h2 {
-    font-size: 36px;
-    line-height: 1.166em;
+  font-size: 36px;
+  line-height: 1.166em;
 }
 
-.index-team{
-  background-color: #F5F4FA;;
+.index-team {
+  background-color: #f5f4fa;
 }
 
-.index-team>h2 {
+.index-team > h2 {
   font-size: 36px;
   line-height: 1.166em;
 }
@@ -138,7 +134,6 @@ body {
   line-height: 1.1875em;
   color: var(--index-dulled-color);
 }
-
 
 /* INDEX FOOTER */
 
@@ -180,59 +175,145 @@ body {
 /* ROOTS */
 
 :root {
-    --portfolio-main-color: #2196f3;
-  }
-  
-  :root {
-    --portfolio-dulled-color: #757575;
-  }
+  --portfolio-main-color: #2196f3;
+}
 
+:root {
+  --portfolio-dulled-color: #757575;
+}
+
+:root {
+  --portfolio-button-bg: #f5f4fa;
+}
+
+:root {
+  --portfolio-footer-bg: #2f303a;
+}
+
+:root {
+  --portfolio-bright-font-color: #ffffff;
+}
+
+:root {
+  --portfolio-alpha-font-color: rgba(255, 255, 255, 0.6);
+}
 
 /* PORTFOLIO HEADER */
 
-
 .portfolio-top-logo {
-    color: inherit;
-    text-decoration: none;
-    font-size: 26px;
-    line-height: 1.192em;
-    font-family: Raleway;
-  }
-  
-  .portfolio-top-web {
-    color: var(--portfolio-main-color);
-  }
-  
-  .portfolio-nav {
-    font-size: 14px;
-    line-height: 1.14em;
-    font-weight: 500;
-  }
-  
-  .portfolio-nav-link {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.142em;
-    text-decoration: none;
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .portfolio-nav-link:hover,
-  .portfolio-nav-link:focus {
-    color: var(--portfolio-main-color);
-  }
-  
-  .portfolio-header-contacts a {
-    font-size: 14px;
-    line-height: 1.14em;
-    color: var(--portfolio-dulled-color);
-    text-decoration: none;
-  }
-  
-  .portfolio-header-contacts a:hover,
-  .portfolio-header-contacts a:focus {
-    color: var(--portfolio-main-color);
-  }
-  
+  color: inherit;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.192em;
+  font-family: Raleway;
+}
+
+.portfolio-top-web {
+  color: var(--portfolio-main-color);
+}
+
+.portfolio-nav {
+  font-size: 14px;
+  line-height: 1.14em;
+  font-weight: 500;
+}
+
+.portfolio-nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.142em;
+  text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio-nav-link:hover,
+.portfolio-nav-link:focus {
+  color: var(--portfolio-main-color);
+}
+
+.portfolio-header-contacts a {
+  font-size: 14px;
+  line-height: 1.14em;
+  color: var(--portfolio-dulled-color);
+  text-decoration: none;
+}
+
+.portfolio-header-contacts a:hover,
+.portfolio-header-contacts a:focus {
+  color: var(--portfolio-main-color);
+}
+
+/* PORTFOLIO MAIN TOP */
+
+.portfolio-button {
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.625em;
+  background-color: var(--portfolio-button-bg);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--portfolio-bright-font-color);
+  background-color: var(--portfolio-main-color);
+}
+
+/* PORTFOLIO IMAGES */
+
+.portfolio-images h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.portfolio-images p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875em;
+  color: var(--portfolio-dulled-color);
+}
+
+/* PORTFOLIO FOOTER */
+
+.portfolio-bottom-logo {
+  color: var(--portfolio-bright-font-color);
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.192em;
+  font-family: Raleway;
+}
+
+.portfolio-bottom-web {
+  color: var(--portfolio-main-color);
+}
+
+.portfolio-footer {
+  background-color: var(--portfolio-footer-bg);
+}
+
+.portfolio-address {
+  color: var(--portfolio-bright-font-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714em;
+}
+
+.portfolio-footer-contacts a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714em;
+  color: var(--portfolio-alpha-font-color);
+  text-decoration: none;
+}
+
+.portfolio-footer-contacts a:hover,
+.portfolio-footer-contacts a:focus {
+  color: var(--portfolio-main-color);
+}
+
+.portfolio-footer-contacts li:first-child {
+  text-decoration: underline;
+}
