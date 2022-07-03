@@ -81,7 +81,7 @@ a {text-decoration: none;}
   font-weight: 500;
   line-height: 1.14em;
   letter-spacing: 0.02em;
-  color: #212121
+  color: #212121;
 }
 
 .header-contact {
@@ -107,9 +107,11 @@ a {text-decoration: none;}
 .top-logo {
   color: inherit;
   font-size: 26px;
-  line-height: 1.192em;
+  line-height: 1.19em;
   font-family: Raleway;
   margin-right: 93px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .top-web {
