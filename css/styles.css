@@ -85,6 +85,8 @@ a {
   color: #212121;
 }
 
+/* H-E-A-D-E-R--C-O-N-T-A-C-T */
+
 .header-contact {
   display: flex;
   flex-wrap: wrap;
@@ -104,6 +106,27 @@ a {
   letter-spacing: 0.02em;
   color: var(--index-dulled-color);
 }
+
+.header-contact-item a {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact-item .icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.header-contact-item .envelope {
+  width: 16px;
+  height: 12px;
+}
+
+.header-contact-item .smartphone {
+  width: 10px;
+  height: 36px;
+}
+
 
 .top-logo {
   color: inherit;
