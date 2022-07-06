@@ -601,6 +601,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -30px;
+  margin-left: -30px;
 }
 
 .clients-list-item {
@@ -610,15 +611,14 @@ a {
   min-width: 170px;
   border: 1px solid var(--clients-list-item-border-color);
   border-radius: 4px;
+  margin-left: 30px;
   margin-bottom: 30px;
   cursor: pointer;
   color: var(--clients-list-item-icon-color);
   transition: color var(--transition), border var(--transition);
 }
 
-.client-list-item:not(:first-of-type) {
-  margin-left: 30px;
-}
+
 
 .header-menu-list-contact-item .icon {
   fill: currentColor;
