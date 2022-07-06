@@ -124,9 +124,9 @@ a {
 .header-contact-link:hover,
 .header-contact-link:active,
 .header-contact-link:focus,
-.header-nav-link:hover,
-.header-nav-link:active,
-.header-nav-link:focus {
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
   color: var(--clients-list-item-item-color-hover);
 }
 
